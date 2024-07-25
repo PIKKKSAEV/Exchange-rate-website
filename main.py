@@ -30,7 +30,7 @@ metadata.create_all(engine)
 
 EXCHANGE_RATE_API_URL = "https://v6.exchangerate-api.com/v6/48e6c08df5b1329c0c0296c4/latest/USD"
 TARGET_CURRENCIES = ["RUB", "EUR", "GBP", "CNY", "JPY"]
-UPLOAD_DIR = "/Users/mihailpiksaev/Desktop/Летняя практика/uploads"
+UPLOAD_DIR = "Путь к uploads"
 
 if not os.path.exists(UPLOAD_DIR):
     os.makedirs(UPLOAD_DIR)
