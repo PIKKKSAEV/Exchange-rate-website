@@ -1,8 +1,8 @@
 Как локально развернуть и запустить сайт на своем ПК:
 
-$ pip install --upgrade fastapi        Проводит установку или обновление FastAPI
+$ pip install --upgrade fastapi Проводит установку или обновление FastAPI
 
-$ fastapi dev main.py                  Непосредственно запускает сервер, на котором октрывается наш сайт
+$ fastapi dev main.py Непосредственно запускает сервер, на котором октрывается наш сайт
 
 DATABASE_URL = "Ваша ссылка на базу данных"
 DROPBOX_ACCESS_TOKEN = "Access token вашего DropBox"   Нужно заменить на данные, соответствующие вам.
