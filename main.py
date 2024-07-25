@@ -21,7 +21,7 @@ app = FastAPI()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-DATABASE_URL = "postgresql://mihailpiksaev:5035@localhost/postgres"
+DATABASE_URL = "Ваша ссылка на базу данных"
 database = databases.Database(DATABASE_URL)
 metadata = sqlalchemy.MetaData()
 
@@ -35,7 +35,7 @@ UPLOAD_DIR = "/Users/mihailpiksaev/Desktop/Летняя практика/uploads
 if not os.path.exists(UPLOAD_DIR):
     os.makedirs(UPLOAD_DIR)
 
-DROPBOX_ACCESS_TOKEN = "sl.B5lHVflC7iI84zS4FGx6oJytDLFw572Bj0J761YztSvKsuF3byTjIJWytjkNt9XSuZi5oIn6VJudrzFUXUtG4zPYQjni-5Cb3KZZYn9Fp_FgSAc4w9WRotobms08VRPZUWOYq4UUaZ6h"
+DROPBOX_ACCESS_TOKEN = "Access token вашего DropBox"
 
 @app.on_event("startup")
 async def startup():
